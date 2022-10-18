@@ -1,0 +1,134 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Roboto, sans-serif;
+  margin: 0;
+
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background-color: #3882F6; 
+  color: white;
+  margin: 12px;
+  margin-left: 0px;
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-style: none;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  background-color: #1F2937;
+  color: white;
+  padding-left: 145px;
+  padding-right: 145px;
+  padding-bottom: 80px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bolder;
+  padding-top: 24px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+}
+.title {
+  display: flex;
+  background-color: #1F2937;
+  color: white;
+  justify-content: space-evenly;
+  padding-bottom: 70px;
+}
+
+.name {
+  font-size: 48px;
+  font-weight: bold;
+  width: 350px;
+}
+
+.game {
+  width: 400px;
+}
+
+.sub{
+  width: 450px;
+  color: #E5E7EB;
+  font-size: 18px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.perks {
+  padding: 30px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+.examples {
+  display:flex;
+  flex-direction:row;
+}
+
+.card {
+  float: left;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.caption{
+  display:block;
+}
+.quotes {
+  display: flex;
+  justify-content: center;
+}
+
+.ad {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
