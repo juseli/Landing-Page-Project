@@ -30,11 +30,13 @@ button {
   padding-top: 5px;
   padding-bottom: 5px;
   border-style: none;
+
 }
 
 img {
   max-height: 100%;
   max-width: 100%;
+  border-radius: 5px;
 }
 
 
@@ -58,7 +60,7 @@ img {
 .links {
   display: flex;
   justify-content: space-between;
-  padding-top: 24px;
+  padding-top: 12px;
 }
 .title {
   display: flex;
@@ -112,7 +114,8 @@ img {
   align-items: center;
   text-align: center;
   padding: 15px;
-  border-radius: 10px;
+
+  
 }
 
 .caption{
@@ -121,14 +124,60 @@ img {
 .quotes {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  font-size: 36px;
+  color:#1F2937;
+  font-weight: lighter;
+  padding: 60px;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 
-.ad {
+.author {
+  display:flex;
+  justify-content: flex-end;
+  font-weight:bold;
+}
+
+
+.call {
+  background-color: #3882F6;
+  margin: 80px;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 200px;
+  color:#E5E7EB;
+}
+
+.main {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.desc {
+  font-weight: lighter;
+}
+
+.signup2 {
+  border-color: #E5E7EB;
+  border: solid;
+  border-radius: 5px;
+  display: flex;
+  max-height: 30px;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer {
   display: flex;
   justify-content: center;
+  background-color: #1F2937;
+  color:#E5E7EB;
+  padding: 50px;
 }
